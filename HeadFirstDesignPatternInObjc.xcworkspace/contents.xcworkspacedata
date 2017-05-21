@@ -4,4 +4,7 @@
    <FileRef
       location = "group:StrategyPattern/StrategyPattern.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:ObserverPattern/ObserverPattern.xcodeproj">
+   </FileRef>
 </Workspace>
