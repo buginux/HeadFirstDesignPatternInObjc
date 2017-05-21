@@ -7,4 +7,7 @@
    <FileRef
       location = "group:ObserverPattern/ObserverPattern.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:ObserverPatternWithNotification/ObserverPatternWithNotification.xcodeproj">
+   </FileRef>
 </Workspace>
