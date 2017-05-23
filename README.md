@@ -6,3 +6,4 @@
 2. 观察者模式
 	* 自定义
 	* 使用系统 `NSNotificationCenter`
+3. 装饰者模式
