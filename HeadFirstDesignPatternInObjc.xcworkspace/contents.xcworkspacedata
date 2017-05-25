@@ -16,4 +16,7 @@
    <FileRef
       location = "group:Singleton/Singleton.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:FactoryMethod/FactoryMethod.xcodeproj">
+   </FileRef>
 </Workspace>
