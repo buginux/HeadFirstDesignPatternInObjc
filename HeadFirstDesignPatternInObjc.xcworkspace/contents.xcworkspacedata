@@ -19,4 +19,7 @@
    <FileRef
       location = "group:FactoryMethod/FactoryMethod.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:AbstractFactory/AbstractFactory.xcodeproj">
+   </FileRef>
 </Workspace>
