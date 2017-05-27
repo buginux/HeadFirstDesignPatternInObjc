@@ -22,4 +22,7 @@
    <FileRef
       location = "group:AbstractFactory/AbstractFactory.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:CommandPattern/CommandPattern.xcodeproj">
+   </FileRef>
 </Workspace>

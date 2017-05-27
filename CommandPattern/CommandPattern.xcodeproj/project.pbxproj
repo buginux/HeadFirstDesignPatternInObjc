@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A24EC4191ED8EE7A00014FF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EC4181ED8EE7A00014FF2 /* main.m */; };
+		A24EC4221ED8EEA600014FF2 /* LightOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EC4211ED8EEA600014FF2 /* LightOnCommand.m */; };
+		A24EC4251ED8EF0500014FF2 /* Light.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EC4241ED8EF0500014FF2 /* Light.m */; };
+		A24EC4281ED8F02000014FF2 /* RemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EC4271ED8F02000014FF2 /* RemoteControl.m */; };
+		A24EC42B1ED8F17300014FF2 /* NoCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EC42A1ED8F17300014FF2 /* NoCommand.m */; };
+		A24EC42E1ED8F30700014FF2 /* LightOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EC42D1ED8F30700014FF2 /* LightOffCommand.m */; };
+		A24EC4311ED8F39300014FF2 /* StereoOnWithCDCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EC4301ED8F39300014FF2 /* StereoOnWithCDCommand.m */; };
+		A24EC4341ED8F39C00014FF2 /* Stereo.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EC4331ED8F39C00014FF2 /* Stereo.m */; };
+		A24EC4371ED8F4D100014FF2 /* StereoOffWithCDCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EC4361ED8F4D100014FF2 /* StereoOffWithCDCommand.m */; };
+		A24EC43A1ED8F60B00014FF2 /* CeilingFan.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EC4391ED8F60B00014FF2 /* CeilingFan.m */; };
+		A24EC43D1ED8F6EA00014FF2 /* CeilingFanOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EC43C1ED8F6EA00014FF2 /* CeilingFanOnCommand.m */; };
+		A24EC4401ED8F77200014FF2 /* CeilingFanOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EC43F1ED8F77200014FF2 /* CeilingFanOffCommand.m */; };
+		A24EC4431ED8F80F00014FF2 /* GarageDoor.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EC4421ED8F80F00014FF2 /* GarageDoor.m */; };
+		A24EC4461ED8F8AA00014FF2 /* GarageDoorDownCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EC4451ED8F8AA00014FF2 /* GarageDoorDownCommand.m */; };
+		A24EC4491ED8F92C00014FF2 /* GarageDoorUpCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EC4481ED8F92C00014FF2 /* GarageDoorUpCommand.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A24EC4131ED8EE7A00014FF2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A24EC4151ED8EE7A00014FF2 /* CommandPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommandPattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24EC4181ED8EE7A00014FF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A24EC41F1ED8EE8D00014FF2 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		A24EC4201ED8EEA600014FF2 /* LightOnCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightOnCommand.h; sourceTree = "<group>"; };
+		A24EC4211ED8EEA600014FF2 /* LightOnCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightOnCommand.m; sourceTree = "<group>"; };
+		A24EC4231ED8EF0500014FF2 /* Light.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Light.h; sourceTree = "<group>"; };
+		A24EC4241ED8EF0500014FF2 /* Light.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Light.m; sourceTree = "<group>"; };
+		A24EC4261ED8F02000014FF2 /* RemoteControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteControl.h; sourceTree = "<group>"; };
+		A24EC4271ED8F02000014FF2 /* RemoteControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteControl.m; sourceTree = "<group>"; };
+		A24EC4291ED8F17300014FF2 /* NoCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoCommand.h; sourceTree = "<group>"; };
+		A24EC42A1ED8F17300014FF2 /* NoCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoCommand.m; sourceTree = "<group>"; };
+		A24EC42C1ED8F30700014FF2 /* LightOffCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightOffCommand.h; sourceTree = "<group>"; };
+		A24EC42D1ED8F30700014FF2 /* LightOffCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightOffCommand.m; sourceTree = "<group>"; };
+		A24EC42F1ED8F39300014FF2 /* StereoOnWithCDCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StereoOnWithCDCommand.h; sourceTree = "<group>"; };
+		A24EC4301ED8F39300014FF2 /* StereoOnWithCDCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StereoOnWithCDCommand.m; sourceTree = "<group>"; };
+		A24EC4321ED8F39C00014FF2 /* Stereo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stereo.h; sourceTree = "<group>"; };
+		A24EC4331ED8F39C00014FF2 /* Stereo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stereo.m; sourceTree = "<group>"; };
+		A24EC4351ED8F4D100014FF2 /* StereoOffWithCDCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StereoOffWithCDCommand.h; sourceTree = "<group>"; };
+		A24EC4361ED8F4D100014FF2 /* StereoOffWithCDCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StereoOffWithCDCommand.m; sourceTree = "<group>"; };
+		A24EC4381ED8F60B00014FF2 /* CeilingFan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CeilingFan.h; sourceTree = "<group>"; };
+		A24EC4391ED8F60B00014FF2 /* CeilingFan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CeilingFan.m; sourceTree = "<group>"; };
+		A24EC43B1ED8F6EA00014FF2 /* CeilingFanOnCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CeilingFanOnCommand.h; sourceTree = "<group>"; };
+		A24EC43C1ED8F6EA00014FF2 /* CeilingFanOnCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CeilingFanOnCommand.m; sourceTree = "<group>"; };
+		A24EC43E1ED8F77200014FF2 /* CeilingFanOffCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CeilingFanOffCommand.h; sourceTree = "<group>"; };
+		A24EC43F1ED8F77200014FF2 /* CeilingFanOffCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CeilingFanOffCommand.m; sourceTree = "<group>"; };
+		A24EC4411ED8F80F00014FF2 /* GarageDoor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarageDoor.h; sourceTree = "<group>"; };
+		A24EC4421ED8F80F00014FF2 /* GarageDoor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GarageDoor.m; sourceTree = "<group>"; };
+		A24EC4441ED8F8AA00014FF2 /* GarageDoorDownCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarageDoorDownCommand.h; sourceTree = "<group>"; };
+		A24EC4451ED8F8AA00014FF2 /* GarageDoorDownCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GarageDoorDownCommand.m; sourceTree = "<group>"; };
+		A24EC4471ED8F92C00014FF2 /* GarageDoorUpCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarageDoorUpCommand.h; sourceTree = "<group>"; };
+		A24EC4481ED8F92C00014FF2 /* GarageDoorUpCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GarageDoorUpCommand.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A24EC4121ED8EE7A00014FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A24EC40C1ED8EE7A00014FF2 = {
+			isa = PBXGroup;
+			children = (
+				A24EC4171ED8EE7A00014FF2 /* CommandPattern */,
+				A24EC4161ED8EE7A00014FF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A24EC4161ED8EE7A00014FF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A24EC4151ED8EE7A00014FF2 /* CommandPattern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A24EC4171ED8EE7A00014FF2 /* CommandPattern */ = {
+			isa = PBXGroup;
+			children = (
+				A24EC4181ED8EE7A00014FF2 /* main.m */,
+				A24EC4261ED8F02000014FF2 /* RemoteControl.h */,
+				A24EC4271ED8F02000014FF2 /* RemoteControl.m */,
+				A24EC41F1ED8EE8D00014FF2 /* Command.h */,
+				A24EC4291ED8F17300014FF2 /* NoCommand.h */,
+				A24EC42A1ED8F17300014FF2 /* NoCommand.m */,
+				A24EC4231ED8EF0500014FF2 /* Light.h */,
+				A24EC4241ED8EF0500014FF2 /* Light.m */,
+				A24EC4201ED8EEA600014FF2 /* LightOnCommand.h */,
+				A24EC4211ED8EEA600014FF2 /* LightOnCommand.m */,
+				A24EC42C1ED8F30700014FF2 /* LightOffCommand.h */,
+				A24EC42D1ED8F30700014FF2 /* LightOffCommand.m */,
+				A24EC42F1ED8F39300014FF2 /* StereoOnWithCDCommand.h */,
+				A24EC4301ED8F39300014FF2 /* StereoOnWithCDCommand.m */,
+				A24EC4351ED8F4D100014FF2 /* StereoOffWithCDCommand.h */,
+				A24EC4361ED8F4D100014FF2 /* StereoOffWithCDCommand.m */,
+				A24EC4321ED8F39C00014FF2 /* Stereo.h */,
+				A24EC4331ED8F39C00014FF2 /* Stereo.m */,
+				A24EC4381ED8F60B00014FF2 /* CeilingFan.h */,
+				A24EC4391ED8F60B00014FF2 /* CeilingFan.m */,
+				A24EC43B1ED8F6EA00014FF2 /* CeilingFanOnCommand.h */,
+				A24EC43C1ED8F6EA00014FF2 /* CeilingFanOnCommand.m */,
+				A24EC43E1ED8F77200014FF2 /* CeilingFanOffCommand.h */,
+				A24EC43F1ED8F77200014FF2 /* CeilingFanOffCommand.m */,
+				A24EC4411ED8F80F00014FF2 /* GarageDoor.h */,
+				A24EC4421ED8F80F00014FF2 /* GarageDoor.m */,
+				A24EC4441ED8F8AA00014FF2 /* GarageDoorDownCommand.h */,
+				A24EC4451ED8F8AA00014FF2 /* GarageDoorDownCommand.m */,
+				A24EC4471ED8F92C00014FF2 /* GarageDoorUpCommand.h */,
+				A24EC4481ED8F92C00014FF2 /* GarageDoorUpCommand.m */,
+			);
+			path = CommandPattern;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A24EC4141ED8EE7A00014FF2 /* CommandPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24EC41C1ED8EE7A00014FF2 /* Build configuration list for PBXNativeTarget "CommandPattern" */;
+			buildPhases = (
+				A24EC4111ED8EE7A00014FF2 /* Sources */,
+				A24EC4121ED8EE7A00014FF2 /* Frameworks */,
+				A24EC4131ED8EE7A00014FF2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommandPattern;
+			productName = CommandPattern;
+			productReference = A24EC4151ED8EE7A00014FF2 /* CommandPattern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A24EC40D1ED8EE7A00014FF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = buginux;
+				TargetAttributes = {
+					A24EC4141ED8EE7A00014FF2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = AMCXGTYG4X;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A24EC4101ED8EE7A00014FF2 /* Build configuration list for PBXProject "CommandPattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A24EC40C1ED8EE7A00014FF2;
+			productRefGroup = A24EC4161ED8EE7A00014FF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A24EC4141ED8EE7A00014FF2 /* CommandPattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A24EC4111ED8EE7A00014FF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24EC4461ED8F8AA00014FF2 /* GarageDoorDownCommand.m in Sources */,
+				A24EC4371ED8F4D100014FF2 /* StereoOffWithCDCommand.m in Sources */,
+				A24EC4311ED8F39300014FF2 /* StereoOnWithCDCommand.m in Sources */,
+				A24EC42B1ED8F17300014FF2 /* NoCommand.m in Sources */,
+				A24EC4431ED8F80F00014FF2 /* GarageDoor.m in Sources */,
+				A24EC4491ED8F92C00014FF2 /* GarageDoorUpCommand.m in Sources */,
+				A24EC4251ED8EF0500014FF2 /* Light.m in Sources */,
+				A24EC42E1ED8F30700014FF2 /* LightOffCommand.m in Sources */,
+				A24EC4191ED8EE7A00014FF2 /* main.m in Sources */,
+				A24EC4341ED8F39C00014FF2 /* Stereo.m in Sources */,
+				A24EC4401ED8F77200014FF2 /* CeilingFanOffCommand.m in Sources */,
+				A24EC43A1ED8F60B00014FF2 /* CeilingFan.m in Sources */,
+				A24EC43D1ED8F6EA00014FF2 /* CeilingFanOnCommand.m in Sources */,
+				A24EC4221ED8EEA600014FF2 /* LightOnCommand.m in Sources */,
+				A24EC4281ED8F02000014FF2 /* RemoteControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A24EC41A1ED8EE7A00014FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A24EC41B1ED8EE7A00014FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A24EC41D1ED8EE7A00014FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AMCXGTYG4X;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A24EC41E1ED8EE7A00014FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AMCXGTYG4X;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A24EC4101ED8EE7A00014FF2 /* Build configuration list for PBXProject "CommandPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24EC41A1ED8EE7A00014FF2 /* Debug */,
+				A24EC41B1ED8EE7A00014FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A24EC41C1ED8EE7A00014FF2 /* Build configuration list for PBXNativeTarget "CommandPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24EC41D1ED8EE7A00014FF2 /* Debug */,
+				A24EC41E1ED8EE7A00014FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A24EC40D1ED8EE7A00014FF2 /* Project object */;
+}
