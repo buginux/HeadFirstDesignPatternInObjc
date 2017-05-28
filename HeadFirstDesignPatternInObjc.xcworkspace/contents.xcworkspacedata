@@ -25,4 +25,7 @@
    <FileRef
       location = "group:CommandPattern/CommandPattern.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:AdapterPattern/AdapterPattern.xcodeproj">
+   </FileRef>
 </Workspace>
