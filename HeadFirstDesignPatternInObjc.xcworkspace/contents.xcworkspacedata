@@ -28,4 +28,7 @@
    <FileRef
       location = "group:AdapterPattern/AdapterPattern.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:FacadePattern/FacadePattern.xcodeproj">
+   </FileRef>
 </Workspace>

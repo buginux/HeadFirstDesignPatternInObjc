@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2224EC51EDA4CFC008FFDFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2224EC41EDA4CFC008FFDFB /* main.m */; };
+		A2224ECD1EDA4D18008FFDFB /* Amplifier.m in Sources */ = {isa = PBXBuildFile; fileRef = A2224ECC1EDA4D18008FFDFB /* Amplifier.m */; };
+		A2224ED01EDA4D41008FFDFB /* CdPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A2224ECF1EDA4D41008FFDFB /* CdPlayer.m */; };
+		A2224ED31EDA4D4D008FFDFB /* DvdPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A2224ED21EDA4D4D008FFDFB /* DvdPlayer.m */; };
+		A2224ED61EDA4D66008FFDFB /* PopcornPopper.m in Sources */ = {isa = PBXBuildFile; fileRef = A2224ED51EDA4D66008FFDFB /* PopcornPopper.m */; };
+		A2224ED91EDA4D8C008FFDFB /* Projector.m in Sources */ = {isa = PBXBuildFile; fileRef = A2224ED81EDA4D8C008FFDFB /* Projector.m */; };
+		A2224EDC1EDA4DA1008FFDFB /* Screen.m in Sources */ = {isa = PBXBuildFile; fileRef = A2224EDB1EDA4DA1008FFDFB /* Screen.m */; };
+		A2224EDF1EDA4DAD008FFDFB /* TheaterLights.m in Sources */ = {isa = PBXBuildFile; fileRef = A2224EDE1EDA4DAD008FFDFB /* TheaterLights.m */; };
+		A2224EE21EDA4DB7008FFDFB /* Tuner.m in Sources */ = {isa = PBXBuildFile; fileRef = A2224EE11EDA4DB7008FFDFB /* Tuner.m */; };
+		A2224EE51EDA5121008FFDFB /* HomeTheaterFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = A2224EE41EDA5121008FFDFB /* HomeTheaterFacade.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A2224EBF1EDA4CFC008FFDFB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A2224EC11EDA4CFC008FFDFB /* FacadePattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FacadePattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2224EC41EDA4CFC008FFDFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2224ECB1EDA4D18008FFDFB /* Amplifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Amplifier.h; sourceTree = "<group>"; };
+		A2224ECC1EDA4D18008FFDFB /* Amplifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Amplifier.m; sourceTree = "<group>"; };
+		A2224ECE1EDA4D41008FFDFB /* CdPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CdPlayer.h; sourceTree = "<group>"; };
+		A2224ECF1EDA4D41008FFDFB /* CdPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CdPlayer.m; sourceTree = "<group>"; };
+		A2224ED11EDA4D4D008FFDFB /* DvdPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DvdPlayer.h; sourceTree = "<group>"; };
+		A2224ED21EDA4D4D008FFDFB /* DvdPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DvdPlayer.m; sourceTree = "<group>"; };
+		A2224ED41EDA4D66008FFDFB /* PopcornPopper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopcornPopper.h; sourceTree = "<group>"; };
+		A2224ED51EDA4D66008FFDFB /* PopcornPopper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopcornPopper.m; sourceTree = "<group>"; };
+		A2224ED71EDA4D8C008FFDFB /* Projector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Projector.h; sourceTree = "<group>"; };
+		A2224ED81EDA4D8C008FFDFB /* Projector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Projector.m; sourceTree = "<group>"; };
+		A2224EDA1EDA4DA1008FFDFB /* Screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Screen.h; sourceTree = "<group>"; };
+		A2224EDB1EDA4DA1008FFDFB /* Screen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Screen.m; sourceTree = "<group>"; };
+		A2224EDD1EDA4DAD008FFDFB /* TheaterLights.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheaterLights.h; sourceTree = "<group>"; };
+		A2224EDE1EDA4DAD008FFDFB /* TheaterLights.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheaterLights.m; sourceTree = "<group>"; };
+		A2224EE01EDA4DB7008FFDFB /* Tuner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tuner.h; sourceTree = "<group>"; };
+		A2224EE11EDA4DB7008FFDFB /* Tuner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tuner.m; sourceTree = "<group>"; };
+		A2224EE31EDA5121008FFDFB /* HomeTheaterFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTheaterFacade.h; sourceTree = "<group>"; };
+		A2224EE41EDA5121008FFDFB /* HomeTheaterFacade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTheaterFacade.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2224EBE1EDA4CFC008FFDFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2224EB81EDA4CFC008FFDFB = {
+			isa = PBXGroup;
+			children = (
+				A2224EC31EDA4CFC008FFDFB /* FacadePattern */,
+				A2224EC21EDA4CFC008FFDFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2224EC21EDA4CFC008FFDFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2224EC11EDA4CFC008FFDFB /* FacadePattern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2224EC31EDA4CFC008FFDFB /* FacadePattern */ = {
+			isa = PBXGroup;
+			children = (
+				A2224EC41EDA4CFC008FFDFB /* main.m */,
+				A2224ECB1EDA4D18008FFDFB /* Amplifier.h */,
+				A2224ECC1EDA4D18008FFDFB /* Amplifier.m */,
+				A2224ECE1EDA4D41008FFDFB /* CdPlayer.h */,
+				A2224ECF1EDA4D41008FFDFB /* CdPlayer.m */,
+				A2224ED11EDA4D4D008FFDFB /* DvdPlayer.h */,
+				A2224ED21EDA4D4D008FFDFB /* DvdPlayer.m */,
+				A2224ED41EDA4D66008FFDFB /* PopcornPopper.h */,
+				A2224ED51EDA4D66008FFDFB /* PopcornPopper.m */,
+				A2224ED71EDA4D8C008FFDFB /* Projector.h */,
+				A2224ED81EDA4D8C008FFDFB /* Projector.m */,
+				A2224EDA1EDA4DA1008FFDFB /* Screen.h */,
+				A2224EDB1EDA4DA1008FFDFB /* Screen.m */,
+				A2224EDD1EDA4DAD008FFDFB /* TheaterLights.h */,
+				A2224EDE1EDA4DAD008FFDFB /* TheaterLights.m */,
+				A2224EE01EDA4DB7008FFDFB /* Tuner.h */,
+				A2224EE11EDA4DB7008FFDFB /* Tuner.m */,
+				A2224EE31EDA5121008FFDFB /* HomeTheaterFacade.h */,
+				A2224EE41EDA5121008FFDFB /* HomeTheaterFacade.m */,
+			);
+			path = FacadePattern;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2224EC01EDA4CFC008FFDFB /* FacadePattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2224EC81EDA4CFC008FFDFB /* Build configuration list for PBXNativeTarget "FacadePattern" */;
+			buildPhases = (
+				A2224EBD1EDA4CFC008FFDFB /* Sources */,
+				A2224EBE1EDA4CFC008FFDFB /* Frameworks */,
+				A2224EBF1EDA4CFC008FFDFB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacadePattern;
+			productName = FacadePattern;
+			productReference = A2224EC11EDA4CFC008FFDFB /* FacadePattern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2224EB91EDA4CFC008FFDFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = buginux;
+				TargetAttributes = {
+					A2224EC01EDA4CFC008FFDFB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = AMCXGTYG4X;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A2224EBC1EDA4CFC008FFDFB /* Build configuration list for PBXProject "FacadePattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2224EB81EDA4CFC008FFDFB;
+			productRefGroup = A2224EC21EDA4CFC008FFDFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2224EC01EDA4CFC008FFDFB /* FacadePattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2224EBD1EDA4CFC008FFDFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2224EE51EDA5121008FFDFB /* HomeTheaterFacade.m in Sources */,
+				A2224EE21EDA4DB7008FFDFB /* Tuner.m in Sources */,
+				A2224ED91EDA4D8C008FFDFB /* Projector.m in Sources */,
+				A2224EDC1EDA4DA1008FFDFB /* Screen.m in Sources */,
+				A2224EDF1EDA4DAD008FFDFB /* TheaterLights.m in Sources */,
+				A2224ED61EDA4D66008FFDFB /* PopcornPopper.m in Sources */,
+				A2224EC51EDA4CFC008FFDFB /* main.m in Sources */,
+				A2224ED31EDA4D4D008FFDFB /* DvdPlayer.m in Sources */,
+				A2224ED01EDA4D41008FFDFB /* CdPlayer.m in Sources */,
+				A2224ECD1EDA4D18008FFDFB /* Amplifier.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A2224EC61EDA4CFC008FFDFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A2224EC71EDA4CFC008FFDFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A2224EC91EDA4CFC008FFDFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AMCXGTYG4X;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2224ECA1EDA4CFC008FFDFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AMCXGTYG4X;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2224EBC1EDA4CFC008FFDFB /* Build configuration list for PBXProject "FacadePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2224EC61EDA4CFC008FFDFB /* Debug */,
+				A2224EC71EDA4CFC008FFDFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2224EC81EDA4CFC008FFDFB /* Build configuration list for PBXNativeTarget "FacadePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2224EC91EDA4CFC008FFDFB /* Debug */,
+				A2224ECA1EDA4CFC008FFDFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2224EB91EDA4CFC008FFDFB /* Project object */;
+}
