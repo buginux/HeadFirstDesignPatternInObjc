@@ -31,4 +31,7 @@
    <FileRef
       location = "group:FacadePattern/FacadePattern.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:TemplatePattern/TemplatePattern.xcodeproj">
+   </FileRef>
 </Workspace>
