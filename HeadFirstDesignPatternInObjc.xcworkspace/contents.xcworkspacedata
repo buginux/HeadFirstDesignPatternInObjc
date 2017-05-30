@@ -34,4 +34,7 @@
    <FileRef
       location = "group:TemplatePattern/TemplatePattern.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:IteratorPattern/IteratorPattern.xcodeproj">
+   </FileRef>
 </Workspace>
