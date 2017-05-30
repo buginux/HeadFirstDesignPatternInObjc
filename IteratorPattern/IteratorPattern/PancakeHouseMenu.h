@@ -7,12 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Iterator.h"
+#import "Menu.h"
 
 @class LinkedList;
-@interface PancakeHouseMenu : NSObject
+@interface PancakeHouseMenu : NSObject <Menu>
 
 - (LinkedList *)getMenuItems;
-- (id<Iterator>)createIterator;
 
 @end

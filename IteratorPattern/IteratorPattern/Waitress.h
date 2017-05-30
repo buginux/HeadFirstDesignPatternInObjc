@@ -7,12 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Menu.h"
 
-@class PancakeHouseMenu, DinerMenu;
 @interface Waitress : NSObject
 
-@property (nonatomic, strong) PancakeHouseMenu *pancakeHouseMenu;
-@property (nonatomic, strong) DinerMenu *dinerMenu;
+@property (nonatomic, strong) id<Menu> pancakeHouseMenu;
+@property (nonatomic, strong) id<Menu> dinerMenu;
+@property (nonatomic, strong) id<Menu> cafeMenu;
 
 - (void)printMenu;
 

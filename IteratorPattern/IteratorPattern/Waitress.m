@@ -17,10 +17,13 @@
 - (void)printMenu {
     id<Iterator> pancakeIterator = [self.pancakeHouseMenu createIterator];
     id<Iterator> dinerIterator = [self.dinerMenu createIterator];
+    id<Iterator> cafeIterator = [self.cafeMenu createIterator];
     NSLog(@"MENU\n----\nBREAKFAST");
     [self printMenu:pancakeIterator];
     NSLog(@"\nLUNCH");
     [self printMenu:dinerIterator];
+    NSLog(@"\nDINNER");
+    [self printMenu:cafeIterator];
 }
 
 - (void)printMenu:(id<Iterator>)iterator {

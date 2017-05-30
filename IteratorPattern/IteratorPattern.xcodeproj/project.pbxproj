@@ -15,6 +15,8 @@
 		A2224F271EDE3197008FFDFB /* DinerMenuIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = A2224F261EDE3197008FFDFB /* DinerMenuIterator.m */; };
 		A2224F2A1EDE32CD008FFDFB /* PancakeHouseIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = A2224F291EDE32CD008FFDFB /* PancakeHouseIterator.m */; };
 		A2224F2D1EDE3526008FFDFB /* Waitress.m in Sources */ = {isa = PBXBuildFile; fileRef = A2224F2C1EDE3526008FFDFB /* Waitress.m */; };
+		A2224F311EDE3A39008FFDFB /* CafeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A2224F301EDE3A39008FFDFB /* CafeMenu.m */; };
+		A2224F341EDE3B3F008FFDFB /* CafaMenuIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = A2224F331EDE3B3F008FFDFB /* CafaMenuIterator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +49,11 @@
 		A2224F291EDE32CD008FFDFB /* PancakeHouseIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PancakeHouseIterator.m; sourceTree = "<group>"; };
 		A2224F2B1EDE3526008FFDFB /* Waitress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Waitress.h; sourceTree = "<group>"; };
 		A2224F2C1EDE3526008FFDFB /* Waitress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Waitress.m; sourceTree = "<group>"; };
+		A2224F2E1EDE38B6008FFDFB /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		A2224F2F1EDE3A39008FFDFB /* CafeMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CafeMenu.h; sourceTree = "<group>"; };
+		A2224F301EDE3A39008FFDFB /* CafeMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CafeMenu.m; sourceTree = "<group>"; };
+		A2224F321EDE3B3F008FFDFB /* CafaMenuIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CafaMenuIterator.h; sourceTree = "<group>"; };
+		A2224F331EDE3B3F008FFDFB /* CafaMenuIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CafaMenuIterator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +102,11 @@
 				A2224F291EDE32CD008FFDFB /* PancakeHouseIterator.m */,
 				A2224F2B1EDE3526008FFDFB /* Waitress.h */,
 				A2224F2C1EDE3526008FFDFB /* Waitress.m */,
+				A2224F2E1EDE38B6008FFDFB /* Menu.h */,
+				A2224F2F1EDE3A39008FFDFB /* CafeMenu.h */,
+				A2224F301EDE3A39008FFDFB /* CafeMenu.m */,
+				A2224F321EDE3B3F008FFDFB /* CafaMenuIterator.h */,
+				A2224F331EDE3B3F008FFDFB /* CafaMenuIterator.m */,
 			);
 			path = IteratorPattern;
 			sourceTree = "<group>";
@@ -162,8 +174,10 @@
 				A2224F1E1EDD0D51008FFDFB /* DinerMenu.m in Sources */,
 				A2224F1B1EDD0AEA008FFDFB /* PancakeHouseMenu.m in Sources */,
 				A2224F271EDE3197008FFDFB /* DinerMenuIterator.m in Sources */,
+				A2224F341EDE3B3F008FFDFB /* CafaMenuIterator.m in Sources */,
 				A2224F241EDD10B6008FFDFB /* LinkedList.m in Sources */,
 				A2224F181EDD0A41008FFDFB /* MenuItem.m in Sources */,
+				A2224F311EDE3A39008FFDFB /* CafeMenu.m in Sources */,
 				A2224F2D1EDE3526008FFDFB /* Waitress.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

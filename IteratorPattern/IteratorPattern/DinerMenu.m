@@ -43,7 +43,6 @@
     menuItem.price = price;
     
     [self.internalMenuItems addObject:menuItem];
-    self.internalMenuItems objectEnumerator
 }
 
 - (NSArray *)getMenuItems {
