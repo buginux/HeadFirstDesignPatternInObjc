@@ -37,4 +37,7 @@
    <FileRef
       location = "group:IteratorPattern/IteratorPattern.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:CompositePattern/CompositePattern.xcodeproj">
+   </FileRef>
 </Workspace>
