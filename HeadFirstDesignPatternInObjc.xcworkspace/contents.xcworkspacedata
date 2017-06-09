@@ -40,4 +40,7 @@
    <FileRef
       location = "group:CompositePattern/CompositePattern.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:StatePattern/StatePattern.xcodeproj">
+   </FileRef>
 </Workspace>
